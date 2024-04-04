@@ -1,0 +1,74 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Custom CSS for card spacing */
+.nav {
+  position: fixed;
+  top: 0;
+}
+
+
+.card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card1 {
+  border-radius: 10px;
+  backdrop-filter: blur;
+}
+
+.card1:hover .card-img-top {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: #262626;
+  color: white;
+  padding: 40px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: rgb(0, 140, 255);
+}
+
+.footer-heading {
+  font-weight: bold;
+}
+
+.footer-links a {
+  display: block;
+  color: #ced4da;
+}
+
+.footer-social-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ced4da;
+}
+
+.footer-social-icons i:hover {
+  color: #ffffff;
+}
+
+
+@media (min-width: 576px) {
+  .row-cols-sm-2>* {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-cols-md-3>* {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}

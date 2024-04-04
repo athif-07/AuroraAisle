@@ -1,0 +1,48 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card img {
+  border: 1px solid black;
+}
+
+footer {
+  background-color: #262626;
+  color: white;
+  padding: 40px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: rgb(0, 140, 255);
+}
+
+.footer-heading {
+  font-weight: bold;
+}
+
+.footer-links a {
+  display: block;
+  color: #ced4da;
+}
+
+.footer-social-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ced4da;
+}
+
+.footer-social-icons i:hover {
+  color: #ffffff;
+}

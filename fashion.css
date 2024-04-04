@@ -1,0 +1,62 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card img {
+  border: 1px solid black;
+}
+
+/* .card select{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    transform: translatey(500%);
+    transition: all 0.1s;
+}
+.card:hover select{
+    cursor: pointer;
+    transform: translateX(0);
+
+  } 
+   */
+footer {
+  background-color: #262626;
+  color: white;
+  padding: 40px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: rgb(0, 140, 255);
+}
+
+.footer-heading {
+  font-weight: bold;
+}
+
+.footer-links a {
+  display: block;
+  color: #ced4da;
+}
+
+.footer-social-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ced4da;
+}
+
+.footer-social-icons i:hover {
+  color: #ffffff;
+}
